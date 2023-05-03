@@ -19,4 +19,8 @@ public class User {
     public boolean asBoolean() {
         return getId() > 100_000;
     }
+
+    public boolean isCase(Object switchValue) {
+        return getId().equals(switchValue);
+    }
 }
